@@ -1,4 +1,5 @@
-# 專屬於Hely老母嘅點擊遊戲
+<p align="center"><img src="/favicon" type="image/png" /></p>
+<h1 align="center">專屬於Hely老母嘅點擊遊戲</h1>
 
 ### 一齊嚟跟Hely老母dododo得永生🙏🙏🙏
 
