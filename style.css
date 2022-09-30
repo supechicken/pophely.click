@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800;900&display=swap');
+
+html, body, #contents, #background_img {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('media/background.png');
+  background-size: cover;
+  font-size: 120px;
+  color: #fff;
+  -webkit-text-stroke: 4px black;
+  font-weight: 900;
+  font-family: Nunito,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+text {
+  font-family: Nunito;
+  font-size: 120px;
+  font-weight: 900;
+  fill: white;
+  stroke: black;
+  stroke-width: 8px;
+  paint-order: stroke fill;
+}
+
+#contents {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#background_img {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#background_img > img {
+  position: absolute;
+  height: calc(100% - 120px - 65px);
+  width: 100%;
+  bottom: 0;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+#dododo {
+  display: none;
+}
+
+#score {
+  margin: 0;
+  font-size: 80px;
+  font-weight: 900;
+}
